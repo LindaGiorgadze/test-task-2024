@@ -1,39 +1,40 @@
-# Developer test task
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-### Instructions
+## Getting Started
 
-When working on the task, please fork this repository. When finished with the task please open a PR. 
-You are free to use any framework, tool, library as long as using it satisfies two conditions:
-1. Using such tool is in compliance with its licence
-2. Underlying technology is relevant to the job requirements listed, i.e. solutions using java/c++/asm/etc won't be considered. We do (primarily) PHP and JS, we expect it from you too. _We don't expect PHP knowledge from a Frontend Developer, but you'll get bonus points for knowing any 'backend' language_
+First, run the development server:
 
-Spend as much effort as you see fit on the task. We don't expect you to provide e2e-tested, WCAG-compliant, PWA-ready, containerized multi-threaded  solution, but tests and thought-through UI will get you bonus points for sure.
-There will be a code review upon completion, where you will have a chance to present your solution and ask/answer questions.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-This is a non-paid test, therefore you're not expected to put crazy hours into solving it. You shouldn't spend more than a couple of hours spanned across 3 days, but please do communicate if you need more time.
-Although task is not mandatory, you are encouraged to complete it as **it will** make it easier to integrate you into the team, should we proceed with you.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Task details
-We'll be creating a book club-like service, where authenticated user can add a book they're reading (incl. genre and a size in pages), and add a series of data in form of "Today I read N pages of X". 
-User's profile should display info about current progress, and a history of read books. 
-Upon completion of the book user should be able to rate the book, leave a review and share the review in social media. 
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-## TL;DR
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-Your solution should do these things:
-1. Allow user to register
-2. Allow registered user to log in
-3. Allow registered user to add books to their library
-   4. Book should have a title, genre and page count
-5. Allow registered user to add reading progress information
-6. Allow user to leave a review, when user adds last progress update
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-You are encouraged to use VueJS for the frontend part. FE role candidates don't **need** to build a full backend, but will get bonus points for using state management libs such as [pinia](https://pinia.vuejs.org/) and tools like [idb](https://www.npmjs.com/package/idb) or [json-server](https://www.npmjs.com/package/json-server)
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-More bonus points are given for:
-1. Good UI and UX
-2. Accessibility
-3. Aggregation and analytics based on user's data e.g. "2023 these are your 5 top-rated books", or "This month you've read 750 pages with most pages read on Tuesday each week". 
-4. Tests
-5. Using current industry-standard-tools properly.
-6. Good documentation
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
