@@ -1,13 +1,12 @@
-# Demo
+# React + Tailwind + json-server
+
+
+## Demo
 
 Open the project [demo](https://test-task-2024-git-main-lindagiorgadze.vercel.app/).
 
-## User can register, log in, add the reading progress and add reviews for finished books.
+### User can register, log in, add the reading progress and add reviews for finished books.
 
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
