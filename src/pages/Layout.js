@@ -17,11 +17,10 @@ const Layout = () => {
 
   useEffect(() => {
     if (!isAuthorized) {
-      if (pathname !== "/" || pathname !== "/register") {
+      if (pathname !== "/register") {
         navigate("/");
       }
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isAuthorized, pathname]);
 
   return (
