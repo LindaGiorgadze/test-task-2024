@@ -1,1 +1,60 @@
-{books:[{id:'1',title:'Title 1',genre:'Narative',pageCount:250,progress:201},{id:'2',title:'Title 2',genre:'Romance',pageCount:210,progress:43,review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quidem? Dolores mollitia facere minima sint autem maiores nihil, rerum beatae quisquam numquam. Adipisci numquam eius iusto voluptatibus dolorem, harum voluptatem.'},{id:'3',title:'Title 3',genre:'Fiction',pageCount:100,progress:100,review:'sas'},{id:'4',title:'Title 4',genre:'Mystery',pageCount:80,progress:65},{id:'5',title:'Title 5',genre:'Novel',pageCount:300,progress:300,review:'test'},{id:'0f9b',title:'',genre:'',pageCount:null,progress:0},{id:'79d9',title:'Test',genre:'Test',pageCount:2,progress:1},{id:'dfdd',title:'Title 1',genre:'Genre',pageCount:500,progress:0}],users:[{id:'1',name:'Linda Giorgadze',email:'lindaagiorgadze@gmail.com',password:'1234'},{id:'26f5',name:'Name 2',email:'example2@gmail.com',password:'test',confirmPassword:'test'},{id:'44a0',name:'Name2',email:'Example@mail.com',password:'test',confirmPassword:'test'}],login:[],profile:{name:'typicode'}}
+{
+  books: [
+    {
+      id: "1",
+      title: "Title 1",
+      genre: "Narative",
+      pageCount: 250,
+      progress: 201
+    },
+    {
+      id: "2",
+      title: "Title 2",
+      genre: "Romance",
+      pageCount: 210,
+      progress: 43,
+      review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quidem? Dolores mollitia facere minima sint autem maiores nihil, rerum beatae quisquam numquam. Adipisci numquam eius iusto voluptatibus dolorem, harum voluptatem."
+    },
+    {
+      id: "3",
+      title: "Title 3",
+      genre: "Fiction",
+      pageCount: 100,
+      progress: 100,
+      review: "sas"
+    },
+    {
+      id: "4",
+      title: "Title 4",
+      genre: "Mystery",
+      pageCount: 80,
+      progress: 65
+    },
+    {
+      id: "5",
+      title: "Title 5",
+      genre: "Novel",
+      pageCount: 300,
+      progress: 300,
+      review: "test"
+    },
+    { id: "79d9", title: "Test", genre: "Test", pageCount: 2, progress: 1 },
+    {
+      id: "dfdd",
+      title: "Title 1",
+      genre: "Genre",
+      pageCount: 500,
+      progress: 0
+    }
+  ],
+  users: [
+    {
+      id: "1",
+      name: "Linda Giorgadze",
+      email: "lindaagiorgadze@gmail.com",
+      password: "1234"
+    }
+  ],
+  login: [],
+  profile: { name: "typicode" }
+}
